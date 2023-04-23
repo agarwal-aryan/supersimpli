@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Styles</title>
+    <style>
+        .Appleparent {
+            background-color: bisque;
+            height: 185px;
+            width: 700px;
+        }
+
+        .Apple p {
+            text-align: center;
+            font-family: Arial;
+            font-weight: bold;
+            margin-bottom: 6px;
+            margin-top: 0px;
+        }
+
+        .Apple .new {
+            color: red;
+            font-size: 15px;
+            margin-bottom: 7px;
+
+        }
+
+        .Apple .mac {
+            font-size: 25px;
+            margin-bottom: -3px;
+        }
+
+        .Apple .super {
+            font-size: 45px;
+            margin-bottom: 9px;
+            padding-left: 5px;
+        }
+
+        .Apple .price {
+            margin-bottom: 12px;
+            font-weight: normal;
+        }
+
+        .Apple .button {
+            background-color: rgb(79, 162, 251);
+            border: none;
+            border-radius: 20px;
+            color: azure;
+            padding: 10px 15px;
+            font-weight: bold;
+            margin-left: 321px;
+        }
+
+        .shareprice {
+            margin-top: 20px;
+            padding-left: 20px;
+            padding-top: 5px;
+            width: 300px;
+            min-height: 100px;
+            background-color: rgb(255, 245, 230);
+            font-family: Arial;
+        }
+
+        .shareprice .current_price {
+            font-size: 30px;
+            margin-bottom: 7px;
+        }
+
+        .shareprice .current_price .usd {
+            font-size: 15px;
+            color: gray;
+        }
+
+        .shareprice .change_in_price {
+            color: green;
+            margin-bottom: 7px;
+        }
+
+        .shareprice .closing_price {
+            color: gray;
+        }
+
+        .shareprice .closing_price .closing_price_in_per {
+            color: red;
+        }
+        .freecodecamp{
+            width: 505px;
+            height: 110px;
+            background-color: antiquewhite;
+            margin-top: 10px;
+            padding-left:10px ;
+            padding-top: 10px;
+            font-family: Arial;
+        }
+        .freecodecamp .first_line{
+            margin-bottom: 5px;
+        }
+        .freecodecamp .first_line .firstcodecamp{
+            font-weight: bold;
+        }
+        .freecodecamp .first_line .secondcodecamp{
+            color: rgb(190, 190, 190);
+        }
+        .freecodecamp .second_line{
+            margin-bottom: 10px;
+            line-height:24px;
+        }
+        .freecodecamp .third_line .freecodecamp_twitter{
+            color: rgb(79, 162, 251);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Appleparent">
+        <div class="Apple">
+            <p class="new">New</p>
+            <p class="mac ">MacBook Pro</p>
+            <p class="super">Supercharged for pros.</p>
+            <p class="price">From &#36;1999</p>
+            <input type="button" value="Buy" class="button">
+        </div>
+    </div>
+    <div class="shareprice">
+        <div class="current_price">
+            1&#44;049&#46;61 <span class="usd">USD</span>
+        </div>
+        <div class="change_in_price">
+            +18&#46;05 &#40;1&#046;75&#37;&#41; today
+        </div>
+        <div class="closing_price">After hours 1&#44;048&#046;00
+            <span class="closing_price_in_per">
+                &#45;1&#046;61 &#40;0&#046;15&#37;&#41;
+            </span>
+        </div>
+    </div>
+    <div class="freecodecamp">
+        <div class="first_line">
+            <span class="firstcodecamp">
+                freeCodeCamp&#46;org
+            </span>
+            <span class="secondcodecamp">
+                &#64;freeCodeCamp 1h
+            </span>
+        </div>
+        <div class="second_line">
+            As a web developer&#44; you&#39;ll want to make your projects easy to use and navigate around&#046;
+        </div>
+        <div class="third_line">
+            Here
+            <span class="freecodecamp_twitter">
+                &#64;chp&#95;it
+            </span> outlines the top skills new developers should have&#046;
+        </div>
+    </div>
+</body>
+
+</html>

@@ -4,6 +4,10 @@
 <head>
     <title>Amazon Sasta Clone</title>
     <style>
+        .link_to_amazon:hover {
+            color: rgb(216, 150, 26);
+        }
+
         .addtocart {
             background: rgb(255, 216, 20);
             width: 115px;
@@ -11,6 +15,17 @@
             border-width: 0;
             border-radius: 13.5px;
             cursor: pointer;
+            transition: 0.15s;
+
+        }
+
+        .addtocart:hover {
+            background: rgb(172, 145, 13);
+        }
+
+        .addtocart:active {
+            background: rgb(245, 217, 104);
+            color: rgb(59, 59, 59);
 
         }
 
@@ -21,12 +36,22 @@
             border-width: 0;
             border-radius: 13.5px;
             cursor: pointer;
+            transition: 0.15s;
+        }
+
+        .buynow:hover {
+            background: rgb(188, 113, 0);
+        }
+
+        .buynow:active {
+            background: rgb(252, 180, 73);
+            color: rgb(59, 59, 59);
         }
     </style>
 </head>
 
 <body>
-    <a href="https://amazon.com/">Back to Amazon</a>
+    <a class="link_to_amazon" href="https://amazon.com/ ">Back to Amazon</a>
     <br>
     <br>
     <h2><b>Nike Black Runnig Shoes</b></h2>
