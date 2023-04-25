@@ -1,15 +1,17 @@
-.content{
+.content {
     font-family: Montserrat;
     margin: 10px 0px 0px 5px;
     width: 300px;
     height: 90px;
     background-color: aqua;
 }
-.content .heading{
+
+.content .heading {
     margin-left: 70px;
     margin-bottom: -5px;
     padding-top: 4px;
 }
-.content .underline{
+
+.content .underline {
     text-decoration: underline;
 }
