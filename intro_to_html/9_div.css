@@ -1,0 +1,289 @@
+._9a {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+._9b {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+._9c {
+    border: 1px solid gray;
+    margin-top: 10px;
+    width: 300px;
+    height: 80px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+._9d {
+    height: 90px;
+    width: 345px;
+    background-color: rgb(59, 59, 59);
+}
+
+._9d_1 {
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    padding: 12px 0px 0px 15px;
+    margin-bottom: -5px;
+}
+
+._9d_2 {
+    color: rgb(193, 193, 193);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+._9e {
+    border: 1px solid black;
+    margin-top: 30px;
+    vertical-align: middle;
+    width: 400px;
+    box-shadow: 0px 0px 2px 2.5px rgba(162, 162, 162, 0.5);
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+._9e .image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid black;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+._9e .tweet_area {
+    border: none;
+    vertical-align: middle;
+    width: 200px;
+    margin-right: 40px;
+}
+
+._9e .tweet-button {
+    background-color: rgb(63, 148, 233);
+    border: none;
+    color: white;
+    border-radius: 50px;
+    padding: 6px 14px;
+    font-weight: 600;
+}
+
+.facebook {
+    height: 200px;
+    width: 150px;
+    border: none;
+    box-shadow: 0px 0px 1.5px 1px rgba(1, 1, 1, 0.2);
+    margin-bottom: 20px;
+}
+
+.facebook .facebook-cat {
+    height: 100px;
+    width: 100%;
+}
+
+.facebook .cat-name {
+    margin: 1px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 6px;
+    padding-top: 2px;
+}
+
+.facebook .mutual-friends {
+    padding-left: 6px;
+    padding-top: 1px;
+    margin: 1px;
+    color: rgb(165, 165, 165);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.facebook .button-add-friend {
+    background-color: rgb(63, 148, 233);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 8px;
+    width: 92px;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.profile1 {
+    height: 200px;
+    width: 150px;
+    border: none;
+    box-shadow: 0px 0px 1.5px 1px rgba(1, 1, 1, 0.2);
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.profile1 .profile1-cat {
+    height: 100px;
+    width: 100%;
+}
+
+.profile1 .cat-name-2 {
+    margin: 1px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 6px;
+    padding-top: 2px;
+}
+
+.profile1 .mutual-friends-2 {
+    padding-left: 6px;
+    padding-top: 1px;
+    margin: 1px;
+    color: rgb(165, 165, 165);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.profile1 .button-add-friend-2 {
+    background-color: rgb(63, 148, 233);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 8px;
+    width: 92px;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.profile2 {
+    height: 200px;
+    width: 150px;
+    border: none;
+    box-shadow: 0px 0px 1.5px 1px rgba(1, 1, 1, 0.2);
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.profile2 .profile2-cat {
+    height: 100px;
+    width: 100%;
+}
+
+.profile2 .cat-name-2 {
+    margin: 1px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 6px;
+    padding-top: 2px;
+}
+
+.profile2 .mutual-friends-2 {
+    padding-left: 6px;
+    padding-top: 1px;
+    margin: 1px;
+    color: rgb(165, 165, 165);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.profile2 .button-add-friend-2 {
+    background-color: rgb(63, 148, 233);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 8px;
+    width: 92px;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.profile3 {
+    height: 200px;
+    width: 150px;
+    border: none;
+    box-shadow: 0px 0px 1.5px 1px rgba(1, 1, 1, 0.2);
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.profile3 .profile3-cat {
+    height: 100px;
+    width: 100%;
+}
+
+.profile3 .cat-name-3 {
+    margin: 1px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 6px;
+    padding-top: 2px;
+}
+
+.profile3 .mutual-friends-3 {
+    padding-left: 6px;
+    padding-top: 1px;
+    margin: 1px;
+    color: rgb(165, 165, 165);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.profile3 .button-add-friend-3 {
+    background-color: rgb(63, 148, 233);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 8px;
+    width: 92px;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.google div {
+    text-align: center;
+}
+
+.google .google-logo {
+    width: 250px;
+    margin: auto;
+}
+
+.google .search_bar {
+    width: 550px;
+    border: none;
+    margin: auto;
+    box-shadow: 0px 0px 2.5px 0.5px rgb(200, 200, 200);
+    border-radius: 20px;
+    padding: 10px 0px 10px 15px;
+    margin-top: 10px;
+
+}
+
+.google .google-search-button {
+    margin-top: 30px;
+    margin-right: 10px;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+    border: none;
+}
+
+.google .google-news-button {
+    margin-top: 30px;
+    margin-right: 10px;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+    border: none;
+}
