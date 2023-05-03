@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Grid</title>
+    <style>
+        div {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .main1 {
+            border: 1px solid;
+            padding-bottom: 20px;
+            width: 300px;
+        }
+
+        .main_1 {
+            display: grid;
+            grid-template-columns: 200px 75px;
+        }
+
+        ._1st {
+            background-color: blue;
+        }
+
+        ._2nd {
+            background-color: pink;
+        }
+
+        .main2 {
+            margin-top: 10px;
+        }
+
+        .main_2 {
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+        }
+
+        ._3nd3,
+        ._1st3 {
+            background-color: blue;
+        }
+
+        ._2nd3 {
+            background-color: pink;
+        }
+
+        .main3 {
+            margin-top: 10px;
+        }
+
+        .main_3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+
+        .col1,
+        .col2,
+        .col3,
+        .col4 {
+            background-color: pink;
+
+        }
+
+        .main4 {
+            margin-top: 10px;
+            border: 1px solid;
+            padding-bottom: 10px;
+        }
+
+        .main_4 {
+            display: grid;
+            grid-template-columns: 150px 150px 150px;
+            grid-template-rows: 220px;
+            column-gap: 20px;
+            padding-left: 20px;
+        }
+
+        .profile1,
+        .profile2,
+        .profile3 {
+            box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.2);
+            display: grid;
+            grid-template-rows: 140px 20px 20px 20px;
+            vertical-align: top;
+        }
+
+        .image {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .name {
+            margin-top: 4px;
+            margin-left: 5px;
+            font-weight: 550;
+        }
+
+        .image_friend {
+            display: grid;
+            grid-template-columns: 20px 130px;
+            grid-row: inherit;
+        }
+
+        .mutual_image {
+            height: 20px;
+            width: 18px;
+            object-fit: cover;
+            object-position: center;
+            margin-top: 6px;
+            margin-left: 6px;
+            border-radius: 100px;
+        }
+
+        .num_of_mutual_friend {
+            margin-top: 9px;
+            padding-left: 10px;
+            margin-left: 5px;
+            font-size: 10px;
+            color: gray;
+        }
+
+        .add_friend_button {
+            margin-top: 12px;
+            margin-left: 6px;
+            background-color: rgb(31, 132, 234);
+            border: none;
+            border-radius: 2px;
+            color: white;
+            padding: 5px 12px;
+            font-size: 10px;
+            box-shadow: 0px 0px 1px 0.5px rgba(178, 178, 178, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main1">
+        <h2>11a</h2>
+        <div class="main_1">
+            <div class="_1st">div1</div>
+            <div class="_2nd">div2</div>
+        </div>
+    </div>
+    <div class="main2">
+        <h2>11b</h2>
+        <div class="main_2">
+            <div class="_1st3">col1</div>
+            <div class="_2nd3">col2</div>
+            <div class="_3nd3">col3</div>
+        </div>
+    </div>
+    <div class="main3">
+        <h2>11c</h2>
+        <div class="main_3">
+            <div class="col1">col1</div>
+            <div class="col2">col2</div>
+            <div class="col3">col3</div>
+            <div class="col4">col4</div>
+            <div class="col1">col1</div>
+            <div class="col2">col2</div>
+            <div class="col3">col3</div>
+            <div class="col4">col4</div>
+        </div>
+    </div>
+    <div class="main4">
+        <h2>11d</h2>
+        <div class="main_4">
+            <div class="profile1">
+                <div><img class="image" src="1.webp" alt=""></div>
+                <div class="name">Oliver</div>
+                <div class="image_friend">
+                    <div><img src="why-does-my-cat-get-the-crazies.webp" class="mutual_image" alt=""></div>
+                    <div class="num_of_mutual_friend">2 mutual friends</div>
+                </div>
+                <div><button class="add_friend_button">Add Friend</button></div>
+            </div>
+            <div class="profile2">
+                <div><img class="image" src="2.jpg" alt=""></div>
+                <div class="name">Mimi</div>
+                <div class="image_friend">
+                    <div><img src="why-does-my-cat-get-the-crazies.webp" class="mutual_image" alt=""></div>
+                    <div class="num_of_mutual_friend">3 mutual friends</div>
+                </div>
+                <div><button class="add_friend_button">Add Friend</button></div>
+            </div>
+            <div class="profile3">
+                <div><img class="image" src="3.jpg" alt=""></div>
+                <div class="name">Rex</div>
+                <div class="image_friend">
+                    <div><img src="why-does-my-cat-get-the-crazies.webp" class="mutual_image" alt=""></div>
+                    <div class="num_of_mutual_friend">4 mutual friends</div>
+                </div>
+                <div><button class="add_friend_button">Add Friend</button></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

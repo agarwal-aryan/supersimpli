@@ -1,0 +1,296 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+._10a {
+    border: 2px solid black;
+}
+
+.fulldiv {
+    height: 150px;
+    width: 230px;
+    display: flex;
+}
+
+.images {
+    width: 148px;
+    height: 148px;
+    margin-right: 15px;
+}
+
+.cat {
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 1px 2px rgba(233, 233, 233, 0.7);
+    object-fit: cover;
+    object-position: center;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 5px;
+
+}
+
+.name {
+    width: 182px;
+    height: 148px;
+}
+
+.fulldiv .name .cat-name {
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 2px;
+}
+
+.fulldiv .name .title {
+    font-size: 35px;
+    color: rgb(166, 166, 166);
+    margin-top: 3px;
+}
+
+.fulldiv .name .profile {
+    font-size: 30px;
+    color: rgb(166, 166, 166);
+    margin-top: 3px;
+}
+
+.follow-button {
+    border: none;
+    color: white;
+    background-color: rgb(63, 148, 233);
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: 600;
+    height: 30px;
+    margin: 70px 0px 0px 100px;
+}
+
+
+._10b {
+    border: 2px solid;
+}
+
+.profile-1,
+.profile-2,
+.profile-3 {
+    height: 90px;
+    width: 500px;
+    margin: 1.5px;
+    display: flex;
+}
+
+.profile-img-1,
+.profile-img-2,
+.profile-img-3 {
+    width: 70px;
+    height: 92px;
+    margin: 4px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -1px;
+}
+
+.details-1,
+.details-2,
+.details-3 {
+    height: 92px;
+    width: 280px;
+    margin: 1.5px;
+}
+
+.follow {
+    height: 92px;
+    width: 116px;
+    margin: 1.5px;
+
+}
+
+.img_ {
+    width: 60px;
+    height: 62px;
+    border-radius: 50px;
+    margin-top: 13px;
+    margin-left: 5px;
+}
+
+.follow_button {
+    border: none;
+    color: white;
+    background-color: rgb(63, 148, 233);
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 27px;
+    margin-left: 30px;
+}
+
+.name-cat {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 3px;
+}
+
+.nature_of_animal {
+    color: rgb(166, 166, 166);
+    font-size: 14px;
+    margin-bottom: 3px;
+
+}
+
+.popular {
+    color: rgb(148, 148, 148);
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+._10c {
+    border: 1px solid;
+}
+
+.video-1,
+.video-2,
+.video-3 {
+    height: 100px;
+    width: 346px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    display: flex;
+}
+
+.thumbnail {
+    height: 96px;
+    width: 140px;
+    margin-top: 1px;
+    margin-left: 1px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.video-details {
+    height: 96px;
+    width: 200px;
+    margin: 1px;
+}
+
+.thumbnail-img {
+    height: 92px;
+    width: 136px;
+    padding: 2px;
+}
+
+.video-name {
+    width: 195px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 5px;
+    line-height: 19px;
+}
+
+.channel-name {
+    color: rgb(148, 148, 148);
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+
+.video-statics {
+    color: rgb(148, 148, 148);
+    font-size: 12.5px;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+._10d_e {
+    border: 1px solid;
+    height: 300px;
+
+}
+
+.profile_1,
+.profile_2,
+.profile_3 {
+    height: 229px;
+    width: 155px;
+    display: inline-block;
+    margin: 0px 0px 0px 10px;
+    box-shadow: 0px 0px 5px 2px rgba(174, 174, 174, 0.566);
+}
+
+.image {
+    width: 154px;
+    height: 155px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image-1 {
+    width: 155px;
+    height: 155px;
+}
+
+.name_animal {
+    width: 148px;
+    height: 18px;
+    margin-top: 1px;
+    margin-left: 1px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 0px 3px;
+}
+
+.image_friend {
+    width: 151px;
+    height: 25px;
+    margin-top: 1px;
+    margin-left: 1px;
+    display: flex;
+}
+
+.add_friend_button {
+    width: 149px;
+    height: 23px;
+    margin-top: 0.5px;
+    margin-left: 1px;
+    padding-left: 2px;
+
+}
+
+.image_mutual_friend {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-left: 1px;
+}
+
+.mutual_friend_image {
+    width: 24px;
+    height: 22px;
+    margin-top: 1px;
+    margin-left: 1px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.num_of_mutual_friend {
+    height: 16px;
+    width: 118px;
+    margin-top: 1px;
+    margin-left: 2px;
+    color: rgb(148, 148, 148);
+    font-size: 9px;
+    padding-top: 6px;
+    padding-left: 2px;
+}
+
+.add_friend_button-1 {
+    background-color: rgb(31, 132, 234);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 4px 12px;
+    font-size: 10px;
+    width: 80px;
+    box-shadow: 0px 0px 1px 1px rgba(178, 178, 178, 0.5);
+}

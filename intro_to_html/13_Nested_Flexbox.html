@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Nested Flexbox</title>
+    <style>
+        div {
+            font-family: Roboto, Arial;
+        }
+
+        ._13a {
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+        }
+
+        .pink {
+            width: 100px;
+            background-color: lightpink;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item {
+            background-color: black;
+            color: white;
+        }
+
+        .blue {
+            width: 200px;
+            background-color: lightblue;
+        }
+
+        ._13b {
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+        }
+
+        .pink1 {
+            width: 100px;
+            background-color: lightpink;
+        }
+
+        .blue1 {
+            width: 200px;
+            background-color: lightblue;
+        }
+
+        .row2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .row2-items {
+            background-color: black;
+            color: white;
+        }
+
+        .gmail-ios {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 325px;
+            margin: 20px;
+            box-shadow: 0px 0px 1px 1px rgba(178, 178, 178, 0.5);
+            border-radius: 3px;
+            padding-bottom: 5px;
+            padding-right: 15px;
+            padding-top: 5px;
+        }
+
+        .copy {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 15px;
+        }
+
+        .image {
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            margin: 6px;
+            object-fit: cover;
+        }
+
+        .email-contant {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex: 1;
+        }
+
+        .header {
+            display: flex;
+        }
+
+        .label {
+            color: rgb(150, 149, 149);
+            font-size: 10.5px;
+            margin-top: 5px;
+            margin-left: 12px;
+            margin-bottom: 10px;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .sender-name {
+            width: 223px;
+            font-weight: 550;
+        }
+
+        .send-time {
+            font-size: 11px;
+            color: rgb(164, 163, 163);
+            vertical-align: middle;
+        }
+
+        .subject {
+            font-weight: 550;
+            font-size: 14px;
+        }
+
+        .message {
+            font-size: 12.5px;
+            color: rgb(199, 199, 199);
+        }
+
+        .twitter {
+            display: flex;
+            flex-direction: row;
+            width: 400px;
+            height: 180px;
+        }
+
+        .person-img {
+            width: 50px;
+            height: 50px;
+            border-radius: 30px;
+            margin: 6px;
+        }
+
+        .tweet {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .name-and-handle {
+            display: flex;
+            flex-direction: row;
+            height: 20px;
+            margin-top: 5px;
+            margin-bottom: 3px;
+        }
+
+        .tweet-author {
+            font-weight: 550;
+            margin-right: 4px;
+            font-size: 16px;
+        }
+
+        .tweet-username {
+            color: rgb(156, 156, 156);
+            font-size: 14px;
+            margin-top: 1px;
+        }
+
+        .tweet-content {
+            height: 50px;
+            font-size: 15px;
+            line-height: 18px;
+        }
+
+        .video-preview {
+            border: 1px solid rgb(199, 199, 199);
+            display: flex;
+            flex-direction: row;
+            border-radius: 20px;
+            height: 90px;
+            width: 320px;
+        }
+
+        .thumbnail {
+            width: 90px;
+            height: 90px;
+            margin-right: 10px;
+            border-radius: 21.5% 0 0 21.5%;
+        }
+
+        .video-info {
+            padding-top: 15px;
+            font-size: 14.5px;
+        }
+
+        .youtube-link {
+            color: rgb(162, 162, 162);
+            padding-bottom: 3px;
+            font-weight: 420;
+        }
+
+        .video-title {
+            line-height: 18px;
+            font-size: 14.7px;
+            font-weight: 420;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>13a</h2>
+    <div class="_13a">
+        <div class="pink">
+            <div class="item">item1</div>
+        </div>
+        <div class="blue"></div>
+    </div>
+    <h2>13b</h2>
+    <div class="_13b">
+        <div class="pink1">
+
+        </div>
+        <div class="blue1">
+            <div>
+                row1
+            </div>
+            <div class="row2">
+                <div class="row2-items">row2</div>
+                <div class="row2-items">row2</div>
+            </div>
+        </div>
+    </div>
+    <h2>13d</h2>
+    <div class="gmail-ios">
+        <div class="label">
+            ALL INBOXES
+        </div>
+        <div class="copy">
+            <div class="sender-picture-container">
+                <img class="image" src="1.webp" alt="">
+            </div>
+            <div class="email-contant">
+                <div class="header">
+                    <div class="sender-name">
+                        Chewy Promotions
+                    </div>
+                    <div class="send-time">
+                        4&#58;58 PM
+                    </div>
+                </div>
+                <div class="subject">
+                    Biggest sales of the year&#33;
+                </div>
+                <div class="message">
+                    Hey there&#33; We're writing to tell you about our&#46;&#46;
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>13e</h2>
+    <div class="gmail-ios">
+        <div class="label">
+            ALL INBOXES
+        </div>
+        <div class="copy">
+            <div class="sender-picture-container">
+                <img class="image" src="2.jpg" alt="">
+            </div>
+            <div class="email-contant">
+                <div class="header">
+                    <div class="sender-name">
+                        Chewy Promotions
+                    </div>
+                    <div class="send-time">
+                        4&#58;58 PM
+                    </div>
+                </div>
+                <div class="subject">
+                    Biggest sales of the year&#33;
+                </div>
+                <div class="message">
+                    Hey there&#33; We're writing to tell you about our&#46;&#46;
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <div class="sender-picture-container">
+                <img class="image" src="3.jpg" alt="">
+            </div>
+            <div class="email-contant">
+                <div class="header">
+                    <div class="sender-name">
+                        Best Buy
+                    </div>
+                    <div class="send-time">
+                        12&#58;32 PM
+                    </div>
+                </div>
+                <div class="subject">
+                    Your Best Buy eReceipt
+                </div>
+                <div class="message">
+                    Hey there&#33; We're writing to tell you about our&#46;&#46;
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <div class="sender-picture-container">
+                <img class="image" src="1.webp" alt="">
+            </div>
+            <div class="email-contant">
+                <div class="header">
+                    <div class="sender-name">
+                        Netflix
+                    </div>
+                    <div class="send-time">
+                        9&#58;00 AM
+                    </div>
+                </div>
+                <div class="subject">
+                    Here&#39;s what&#39;s coming soon Netflix
+                </div>
+                <div class="message">
+                    Hey there&#33; We're writing to tell you about our&#46;&#46;
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>13f</h2>
+    <div class="twitter">
+        <div class="image-twitter">
+            <img class="person-img" src="3.jpg">
+        </div>
+        <div class="tweet">
+            <div class="name-and-handle">
+                <div class="tweet-author">
+                    supersimple&#46;dev
+                </div>
+                <div class="tweet-username">
+                    &#64;SuperSimpleDev
+                </div>
+            </div>
+            <div class="tweet-content">
+                What is backend web development&#63; A complete overview&#46; New video is up&#33;
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-image">
+                    <img src="1.webp" class="thumbnail">
+                </div>
+                <div class="video-info">
+                    <div class="youtube-link">
+                        youtube.com
+                    </div>
+                    <div class="video-title">
+                        Backend web development &#45; a complete overview &#40;2021&#41;
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
