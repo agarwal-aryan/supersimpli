@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 3000px;
+        }
+
+        .container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .nike-jordan {
+            height: 200px;
+            width: 200px;
+        }
+
+        .discount {
+            position: absolute;
+            background-color: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            padding: 4px 4px;
+            top: 10px;
+            right: 0px;
+        }
+
+        .promotion-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+            background-color: rgba(160, 160, 160, 0.306);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .add-to-cart-button {
+            background-color: white;
+            border-width: 1px;
+            border-style: solid;
+            border-color: black;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="nike-jordan.webp" class="nike-jordan">
+        <span class="discount">20&#37;&#32;OFF</span>
+        <div class="promotion-overlay">
+            <button class="add-to-cart-button">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

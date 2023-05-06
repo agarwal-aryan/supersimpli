@@ -1,129 +1,135 @@
 .name,
-        .email {
-            display: block;
-            margin-bottom: 6px;
-        }
+.email {
+    display: block;
+    margin-bottom: 6px;
+}
 
-        .para {
-            width: 200px;
-            vertical-align: middle;
-            display: inline-block;
-        }
+.para {
+    width: 200px;
+    vertical-align: middle;
+    display: inline-block;
+}
 
-        .yes_button,
-        .no_button {
-            display: inline-block;
-            vertical-align: middle;
-        }
+.yes_button,
+.no_button {
+    display: inline-block;
+    vertical-align: middle;
+}
 
-        .google {
-            border: 2px solid red;
-            height: 300px;
-        }
+.google {
+    border: 2px solid red;
+    height: 300px;
+}
 
-        .google .google_logo {
-            width: 200px;
-            display: block;
-            margin: auto;
-        }
+.google .google_logo {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
 
-        .google .search_bar {
-            width: 350px;
-            border: none;
-            display: block;
-            margin: auto;
-            box-shadow: 0px 0px 2.5px 0.5px rgb(200, 200, 200);
-            border-radius: 20px;
-            padding: 10px 0px 10px 15px;
-            margin-top: 10px;
-            
-        }
+.google .search_bar {
+    width: 350px;
+    border: none;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 0px 2.5px 0.5px rgb(200, 200, 200);
+    border-radius: 20px;
+    padding: 10px 0px 10px 15px;
+    margin-top: 10px;
 
-        .sign-up-form {
-            border: 2px solid red;
-        }
+}
 
-        .sign-up-form .first-name {
-            padding: 8.5px;
-            border-radius: 5px;
-            border: 1.3px solid gray;
-            width: 105px;
-        }
+.sign-up-form {
+    border: 2px solid red;
+}
 
-        .sign-up-form .second-name {
-            padding: 8.5px;
-            border-radius: 5px;
-            border: 1.3px solid gray;
-            width: 115px;
-        }
+.sign-up-form .first-name {
+    padding: 8.5px;
+    border-radius: 5px;
+    border: 1.3px solid gray;
+    width: 105px;
+}
 
-        .sign-up-form .Email {
-            display: block;
-            margin-top: 10px;
-            padding: 9px;
-            border-radius: 5px;
-            border: 1.3px solid gray;
-            width: 241px;
-        }
+.sign-up-form .second-name {
+    padding: 8.5px;
+    border-radius: 5px;
+    border: 1.3px solid gray;
+    width: 115px;
+}
 
-        .sign-up-form .sign_up {
-            background-color: rgb(51, 119, 244);
-            color: white;
-            border: none;
-            border-radius: 5px;
-            width: 260px;
-            margin-top: 10px;
-            padding: 10px;
-        }
-        .uber-request-form{
-            border: 2px solid red;
-            height: 200px;
-        }
-        .uber-request-form .heading{
-            font-family: Arial;
-            font-size: 30px;
-            padding-left: 10px;
-            margin-top: 4px;
-            margin-bottom: 15px;
-        }
-        .uber-request-form .pick-up-location{
-            display: block;
-            margin-left: 10px;
-            margin-top: 6px;
-            border: none;
-            background-color: rgb(243, 243, 243);
-            padding-left: 5px;
-            height: 25px;
-            width: 280px;
-            font-size: 12px;
-        }
-        .uber-request-form .destination{
-            display: block;
-            margin-left: 10px;
-            margin-top: 6px;
-            border: none;
-            background-color: rgb(243, 243, 243);
-            padding-left: 5px;
-            height: 25px;
-            width: 280px;
-            font-size: 12px;
-        }
-        .uber-request-form .Uber_button_1{
-            background: black;
-            color: azure;
-            width: 120px;
-            height: 30px;
-            cursor: pointer;
-            border: 0;
-            transition: 0.5s;
-            margin-left: 10px;
-            margin-top: 25px;
-            margin-right: 10px;
-        
-        }
-        .uber-request-form .Uber_button_2{
-            width: 120px;
-            height: 30px;
-            border: none;
-            font-size: 13px;
-        }
+.sign-up-form .Email {
+    display: block;
+    margin-top: 10px;
+    padding: 9px;
+    border-radius: 5px;
+    border: 1.3px solid gray;
+    width: 241px;
+}
+
+.sign-up-form .sign_up {
+    background-color: rgb(51, 119, 244);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 260px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.uber-request-form {
+    border: 2px solid red;
+    height: 200px;
+}
+
+.uber-request-form .heading {
+    font-family: Arial;
+    font-size: 30px;
+    padding-left: 10px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+
+.uber-request-form .pick-up-location {
+    display: block;
+    margin-left: 10px;
+    margin-top: 6px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    padding-left: 5px;
+    height: 25px;
+    width: 280px;
+    font-size: 12px;
+}
+
+.uber-request-form .destination {
+    display: block;
+    margin-left: 10px;
+    margin-top: 6px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    padding-left: 5px;
+    height: 25px;
+    width: 280px;
+    font-size: 12px;
+}
+
+.uber-request-form .Uber_button_1 {
+    background: black;
+    color: azure;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    border: 0;
+    transition: 0.5s;
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-right: 10px;
+
+}
+
+.uber-request-form .Uber_button_2 {
+    width: 120px;
+    height: 30px;
+    border: none;
+    font-size: 13px;
+}
